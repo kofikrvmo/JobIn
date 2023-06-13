@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Job Portal</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">JOBIN</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#">Sign In</a>
+        </div>
+
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="header-title">FIND YOUR <br>
+            <span>PERFECT JOB </span> <br> EASILY</h1>
+    </header>
+
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job Title or Keyword">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option>Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Senior</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>Area of Expectise</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option> 
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Locations</option>
+                <option>Remote</option>
+                <option>Ghana</option>
+                <option>Nigeria</option> 
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option>Education Level</option>
+                <option>High School</option>
+                <option>Bachelor's Degree</option>
+                <option>Master's Degree</option>  
+            </select>
+        </div>
+    </div>
+    <div class="filter-chosen">
+        <div class="chosen-card">
+            Remote <i class="fas fa-times-circle"></i><br>
+        </div>
+        <div class="chosen-card">
+            Full Time <i class="fas fa-times-circle"></i><br>
+        </div>
+        <div class="chosen-card">
+            Financial Tech <i class="fas fa-times-circle"></i><br>
+        </div>
+        <div class="chosen-card">
+            Entry Level <i class="fas fa-times-circle"></i><br>
+        </div>
+    </div>
+
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name" id="tesla">
+                <img class="job-profile" src="images/tesla.svg" alt="Tesla">
+                <div class="job-detail">
+                    <h4>Tesla</h4>
+                    <h3>Mechanical Engineer</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+
+            <div class="job-card">
+                <div class="job-name">
+                    <img class="job-profile" src="images/ebay.jpg">
+                </div>
+                <div class="job-detail">
+                    <h4>Ebay</h4>
+                    <h3>Business Development</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="job-label">
+                    <a class="label-a" href="#">HTML</a>
+                    <a class="label-b" href="#">CSS</a>
+                    <a class="label-c" href="#">JavaScript</a>
+                </div>
+                <div class="job-posted">
+                    Posted 2 mins ago
+                </div><br>
+
+                <div class="job-card">
+                    <div class="job-name">
+                        <img class="job-profile" src="images/tiktok.svg">
+                    </div>
+                    <div class="job-detail">
+                        <h4>TikTok</h4>
+                        <h3>Digital Marketing</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="job-label">
+                        <a class="label-a" href="#">HTML</a>
+                        <a class="label-b" href="#">CSS</a>
+                        <a class="label-c" href="#">JavaScript</a>
+                    </div>
+                    <div class="job-posted">
+                        Posted 2 mins ago
+                    </div>   
+            </div><br>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/youtube.svg">
+            </div>
+            <div class="job-detail">
+                <h4>YouTube</h4>
+                <h3>UI UX Designer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                Posted an hour ago
+            </div><br>
+            <div class="job-card">
+                <div class="job-name">
+                    <img class="job-profile" src="images/amazon.svg">
+                </div>
+                <div class="job-detail">
+                    <h4>Amazon</h4>
+                    <h3>Software Engineer</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="job-label">
+                    <a class="label-a" href="#">HTML</a>
+                    <a class="label-b" href="#">CSS</a>
+                    <a class="label-c" href="#">JavaScript</a>
+                </div>
+                <div class="job-posted">
+                    Posted an hour ago
+                </div>    <br>
+                <button class="job-more">More List</button>
+    </section>
+</body>
+</html>
